@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SalesDatePrediction.API.Models
 {
+    [Table("Products", Schema = "Production")]
     public class Product
     {
         [Key]
